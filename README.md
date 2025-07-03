@@ -59,7 +59,7 @@ Movement is handled automatically with forward movement when locked onto the bos
 ### Step 1: Clone the Repository
 
 ```bash
-git clone https://github.com/yourusername/Beating-Dark-Souls-III-Ludex-Gundyr-with-Reinforcement-Learning.git
+git clone https://github.com/laween-alsulaivany/Beating-Dark-Souls-III-Ludex-Gundyr-with-Reinforcement-Learning.git
 cd Beating-Dark-Souls-III-Ludex-Gundyr-with-Reinforcement-Learning/Dark_Souls
 ```
 
@@ -291,7 +291,7 @@ This project builds upon the foundational work developed by our Machine Learning
 
 If you encounter issues:
 
-1. Check the [Issues](https://github.com/yourusername/repo/issues) page
+1. Check the [Issues](https://github.com/laween-alsulaivany/Beating-Dark-Souls-III-Ludex-Gundyr-with-Reinforcement-Learning/issues) page
 2. Verify your setup matches the requirements
 3. Ensure Dark Souls III and Cheat Engine versions are compatible
 4. Create a new issue with detailed error information

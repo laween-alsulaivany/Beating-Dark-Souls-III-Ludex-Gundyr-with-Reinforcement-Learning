@@ -1,0 +1,2 @@
+# This file ensures the data directory structure is preserved in git
+# Runtime .txt files are ignored but directory structure is maintained

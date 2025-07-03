@@ -1,0 +1,80 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environments
+.venv/
+venv/
+env/
+ENV/
+ml_env/
+.ml_env/
+ML_Test_Laween/
+.ml2/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Project Specific
+logs/
+*.log
+
+# Model files and training artifacts (large files)
+*.pkl
+*.zip
+*.h5
+*.pt
+*.pth
+*.ckpt
+
+# Runtime data files (keep structure but ignore content)
+data/*.txt
+!data/.gitkeep
+
+# Analysis outputs
+analysis/output/
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.pdf
+
+# Cheat Engine (large binary files)
+CheatEngine75/
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+*.backup

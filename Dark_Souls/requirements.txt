@@ -1,0 +1,50 @@
+# =============================================================================
+# DARK SOULS III REINFORCEMENT LEARNING PROJECT - REQUIREMENTS
+# =============================================================================
+# This file contains all the dependencies needed to run the Dark Souls III
+# reinforcement learning training environment for defeating Iudex Gundyr.
+# =============================================================================
+
+# REINFORCEMENT LEARNING CORE
+# -----------------------------------------------------------------------------
+stable-baselines3==2.5.0          # Main RL library for PPO algorithm
+gym==0.26.2                        # OpenAI Gym for environment interface
+gymnasium==1.0.0                   # Modern successor to OpenAI Gym
+numpy==2.1.3                       # Numerical computing and array operations
+
+# MACHINE LEARNING & DEEP LEARNING
+# -----------------------------------------------------------------------------
+tensorflow==2.19.0                 # Deep learning framework (used by stable-baselines3)
+torch==2.6.0+cu118                # PyTorch with CUDA support for GPU acceleration
+
+# GAME AUTOMATION & CONTROL
+# -----------------------------------------------------------------------------
+PyDirectInput==1.0.4               # Direct input simulation for game controls
+pynput==1.8.1                      # Alternative input control library
+psutil==7.0.0                      # Process monitoring (checking if DS3 is running)
+Pymem==1.14.0                      # Memory manipulation for reading game state
+
+# CONSOLE OUTPUT & LOGGING
+# -----------------------------------------------------------------------------
+colorama==0.4.6                    # Colored terminal output for better logging
+
+# DATA ANALYSIS & VISUALIZATION (OPTIONAL)
+# -----------------------------------------------------------------------------
+pandas==2.2.3                      # Data manipulation for training logs analysis
+matplotlib==3.10.1                 # Plotting training progress and statistics
+
+# SYSTEM DEPENDENCIES (WINDOWS)
+# -----------------------------------------------------------------------------
+pywin32==310                       # Windows-specific APIs
+
+# ENVIRONMENT COMPATIBILITY
+# -----------------------------------------------------------------------------
+Shimmy==2.0.0                      # Compatibility layer between Gym versions
+
+# =============================================================================
+# INSTALLATION NOTES:
+# - This project requires Windows OS due to game integration
+# - CUDA-compatible GPU recommended for faster training
+# - Dark Souls III game and Cheat Engine 7.5 must be installed separately
+# - Python 3.8+ recommended
+# =============================================================================

@@ -72,7 +72,7 @@ analysis/output/
 
 # Cheat Engine (large binary files)
 CheatEngine75/
-
+CheatEngine75
 # Temporary files
 *.tmp
 *.temp
